@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .card {
+            width: 23%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #ff5733;
+            margin-top: 15px;
+        }
+
+        .card p {
+            margin: 10px 0;
+        }
+
+        .card button {
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .card button:hover {
+            background-color: #ff7733;
+        }
+
+</style>
+<body>
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="card">
+                <img src="./assets/img/Image.jpg" alt="Service 1">
+                <h3>Service 1</h3>
+                <p>Nous offrons un service de qualité pour tous vos besoins.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/Image.jpg" alt="Service 2">
+                <h3>Service 2</h3>
+                <p>Un service rapide et efficace pour votre entreprise.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/Image.jpg" alt="Service 3">
+                <h3>Service 3</h3>
+                <p>Solutions innovantes pour le développement web.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/Image.jpg" alt="Service 4">
+                <h3>Service 4</h3>
+                <p>Support technique pour tous vos projets numériques.</p>
+                <button>En savoir plus</button>
+            </div>
+        </div>
+    </section>
+    </body>
+    </html>
