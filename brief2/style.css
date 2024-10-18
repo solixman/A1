@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .home{
+            background-color: #ffffff;
+            height: 70px; 
+            width: 100%;
+            top: 0;
+            text-align: right ;
+            vertical-align: middle;
+            position: fixed;
+            
+      }
+       .logo{
+        height: 100%;
+        color: #1090CB;
+        font-size: 29px;
+        margin-left: 35px ;
+        text-align: left;
+        font-weight:bolder;
+        margin-top: 25px;
+        }
+       .items{
+         margin-top: -68px;
+         margin-right: 130px;
+       }
+       .items nav{
+        
+        height: 100%;
+        color:black;
+           
+        }
+
+        nav ul li {
+            font-size: 19px;
+            size: px;
+            display: inline;
+            margin-right:  35px;
+        }
+
+        .btn{
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 500;
+            position: absolute;
+            margin-top: -30px; 
+            }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        nav ul li :hover
+        {
+            color: rgba(175, 17, 211, 0.496);
+        }
+        
+        .hero{
+            margin-top: 80px;
+            background-color: #e9f4fb;
+            height: 100vh;
+            width: 100%;
+        }
+        .hero-content{
+            
+            max-width: 23%;
+        }
+        .hero-content h1 {
+            max-width: 25%;
+        position: absolute;
+        margin: 123px 140px;
+        font-style: poppins;
+        font-size: 40px;
+        font-weight: bold;
+        color: 000000;
+        }
+        .hero-content h1 span{
+            font-style: poppins;
+        font-size: 40px;
+        font-weight: bold;
+        color: #1090CB;
+        }
